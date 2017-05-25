@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div id="root">
+
+    </div>
+    <script type="text/babel">
+
+        var Component1 = React.createClass({
+          render(){
+            return(
+              <div>
+                <h2>This is a component1</h2>
+              </div>
+            )
+          }
+        })
+        var Component2 = React.createClass({
+          render(){
+            return(
+              <div>
+                <h2>This is a component2</h2>
+              </div>
+            )
+          }
+        })
+        ReactDOM.render(
+          <div>
+            <Component1/>
+            <Component2/>
+          </div>,
+          document.getElementById('root')
+        )
+        // <div>
+        //   <h1>Hello depeng!</h1>
+        //   <h2>Hello Class</h2>
+        // </div>,
+
+    </script>
+  </body>
+</html>

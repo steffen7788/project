@@ -1,0 +1,106 @@
+
+div#wrapper {
+  width:900px;
+  height:100%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  align-content: center;
+}
+div#gallery{
+  position: absolute;top: 0px,left:0px;
+  width: 200px;
+  height:auto;
+}
+div#maincontent{
+
+  margin-left: 200px;
+  margin-top: 0;
+  height: auto;
+  padding: 10px;
+}
+div#maincontent table#table {
+  width="300";
+  border="1";
+  /*cellspacing="0";
+  cellpadding="0";*/
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat-x;
+  background-position: left;
+  background-position: bottom;
+}
+
+/*div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+div#twitter:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+  /*twitter end*/
+
+
+.headerfooter{
+  background-color:rgb(0,102,102);
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 900px;
+}
+
+
+ul#menubar {
+  text-align: right;
+  margin-right: 0px;
+}
+
+ul#menubar li {
+    display: inline-block;
+}
+
+ul#menubar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    background-image: url("../images/item.jpg");
+    padding: 7px;
+    width: 95px;
+    text-align:center;
+}
+
+ul#menubar a:hover {
+    color: blue;
+    background-image: url("../images/itemOver.jpg");
+}
+
+
+
+
+form table#form td {
+  width:300px;
+}

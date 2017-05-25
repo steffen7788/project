@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Argus Technology - Home</title>
+<link rel="stylesheet" href="style.css" type="text/css" id="linkStyle" />
+<script type="text/javascript" src="IndexJS.js"></script>
+</head>
+<body onload="bodyLoad();">
+<div id="styleSwitch">
+    Pick a theme: 
+    <input type="button" value="Style 1" onclick="switchStyle('style.css')" />
+    <input type="button" value="Style 2" onclick="switchStyle('style2.css')" />
+</div>
+<div id="header"><img src="header.jpg" height="100px" /></div>
+<ul id="menubar">
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="About.html">About Us</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="Order.html">Order</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+    <li><a href="Sitemap.html">Sitemap</a></li>
+</ul>
+<div id="content">
+<input type="button" value="Previous" id="prevBtn"
+       onclick="showImage(-1);" 
+       title="View the previous item on the list" disabled />
+<ul id="slideshow">
+    <li><img src="slideshow/image1.jpg" height="150px" /></li>
+    <li><img src="slideshow/image2.jpg" height="150px" /></li>
+    <li><img src="slideshow/image3.jpg" height="150px" /></li>
+    <li><img src="slideshow/image4.jpg" height="150px" /></li>
+    <li><img src="slideshow/image5.jpg" height="150px" /></li>
+    <li><img src="slideshow/image6.jpg" height="150px" /></li>
+</ul>
+<input type="button" value="Next" id="nextBtn"
+       onclick="showImage(1);"  title="View the next item on the list" />
+</div>
+<div id="footer">
+John Smith | e-mail: <a href="mailto:jsmith@unitec.ac.nz">jsmith@unitec.ac.nz</a> | ID: 0222662
+</div>
+</body>
+</html>

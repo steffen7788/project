@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+	background-color: #CCC;
+	font-family: Georgia, "Times New Roman", Times, serif; color:##006; font-size:11px;
+	color:#006;
+}
+
+/* menu */
+ul.menu
+{
+float:left;
+width:100%; 
+padding:0;
+margin:0;
+list-style-type:none;
+}
+ul.menu a
+{
+float:left; 
+width:160px;
+text-decoration:#FFF;
+font-weight:bold;
+font-size:16px;
+color: #FCF;
+background-color:#990000 ;
+padding:0.2em 0.2em;
+border-bottom:1px solid #FCF;
+}
+ul.menu a:hover {background-color: #FFF;}
+ul.menu li {display:inline} 
+
+/* home page */
+div#header {
+    clear: both;
+	padding: 1px;
+	background-color: white;
+	text-align:center;
+}
+div#left {
+    float: left;
+    width: 180px;
+}
+div#right {
+    float: right;
+    width: 180px;
+}
+div#middle {
+    padding:5px 180px 5px 180px;
+	margin:0px;
+}
+
+
+.description{text-align:justify; padding:10px; float:right;}
+
+/* transparent box */
+div#transbox{
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:justify;
+	background-image:url(images/background-bag.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	font-size:16px;
+	/* for IE */
+    filter:alpha(opacity=40);
+	/* CSS3 standard */
+    opacity:0.4;
+	height: 250px;
+}
+
+/* For image gallery */
+div.img
+  {
+  margin: 2px;
+  border: 1px solid #0000ff;
+  height: auto;
+  width: auto;
+  float: left; 
+  text-align: center;
+  }
+div.img img
+  {
+  display: inline;
+  margin: 3px;
+  border: 1px solid #ffffff;
+  }
+div.img a:hover img
+  {
+  border: 1px solid #0000ff;
+  }
+div.desc
+  {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 2px;
+  }
+
+.heading{text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:24px; font-weight:bold; padding:10px;}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/mainScript.js"></script>
+
+    <title>Contact us</title>
+  </head>
+  <body onload="fading_rotating()" >
+    <div id="wrapper">
+      <div class="headerfooter">
+        <center>
+          <table>
+            <tr>
+              <td><img src="images/unitec.png" alt=""></td><td>Department of Computing</td>
+            </tr>
+          </table>
+        </center>
+      </div>
+      <ul id="menubar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course list</a></li>
+
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div id="gallery" >
+        <img id="board" src="images/image1.jpg" alt="" width="200px" height="400px" >
+      </div>
+      <div id="maincontent">
+        <div id="twitter">
+          <a href="www.twitter.com/unitecnz"><img src="images/twitter.png" alt=""></a>
+          <!-- <div class="overlay">
+            <div class="text">Follow our twitter</div>
+          </div> -->
+        </div>
+        <table>
+          <tr>
+            <td >
+              <img id="image1" src="images/waitakere.jpg" alt="" height="250px" style="position:fix;">
+              <p class="para1">Ratanui St,<br>Henderson<br>Auckland<br>New Zealand</p>
+              <!-- <script>
+                $(document).ready(function(){
+              $("#image1").hover(function(){ //if you hover over the button
+                $(".para1").toggle()
+              })})
+              </script> -->
+            </td>
+            <td>
+              <img  id="image2" src="images/mtalbert.jpg" alt="" height="250px">
+              <p class="para2">Ratanui St,<br>Henderson<br>Auckland<br>New Zealand</p>
+              <!-- <script>
+              $("#image2").hover(function(){ //if you hover over the button
+                $(".para2").toggle()
+              })
+              </script> -->
+            </td>
+            <td >
+              <img id="image3" src="images/albany.jpg" alt="" height="250px">
+              <p class="para3">Ratanui St,<br>Henderson<br>Auckland<br>New Zealand</p>
+              <!-- <script>
+              $("#image3").hover(function(){ //if you hover over the button
+                $(".para3").toggle()
+              })
+              </script> -->
+            </td>
+          </tr>
+        </table>
+        <form onsubmit="return validate_form(this)" method="post">
+        <table id="form">
+        <tr>
+        	<td>Name:*</td> <td><input type="text" name="first_name" size="30" /></td>
+        </tr>
+        <tr>
+            <td>Email:</td> <td><input type="text" name="email" size="30" /></td>
+        </tr>
+        <tr>
+          <td>Course code</td><td><input id="code" type="text" name="code" size="30"/></td>
+            <!-- <td>Address:</td>
+            <td>
+              <textarea cols="50" rows="5">
+                Please input your address information here
+              </textarea></td> -->
+        </tr>
+        <tr>
+          <td>Type of Enquire:</td><td><input type="checkbox" name="Course related" value="Course related"/>Course related</td>
+        </tr>
+        <tr>
+          <td></td><td><input type="checkbox" name="IT support" value="IT support"/>IT support</td>
+        </tr>
+        <tr>
+            <td width="300px"></td> <td><input type="submit" value="Submit" name="Send"></td>
+        </tr>
+        </table>
+        </form>
+      </div>
+      <div class="headerfooter" style="position:absolute; bottom:0px">
+        <left>LI DEPENG | 1484797 | nzlidepeng@gmail.com</left>
+      </div>
+    </div>
+  </body>
+</html>

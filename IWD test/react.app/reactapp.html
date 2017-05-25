@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div id="root">
+
+    </div>
+    <script type="text/babel">
+
+        var Navbar = React.createClass({
+          render(){
+            return(
+              <div>
+                <h2>This is a Naber</h2>
+              </div>
+            )
+          }
+        })
+        var Jumbotron = React.createClass({
+          render(){
+            return(
+              <div>
+                <div className="jumbotron">
+                  <div className="container">
+                    <h2>This is a Jumbotron</h2>
+                  </div>
+                </div>
+              </div>
+            )
+          }
+        })
+        var Page = React.createClass({
+          render(){
+            return(
+              <div>
+                <h2>This is a Page</h2>
+              </div>
+            )
+          }
+        })
+        var Component = React.createClass({
+          render(){
+            return(
+              <div>
+                <Navbar/>
+                <Jumbotron/>
+                <Page/>
+              </div>
+            )
+          }
+        })
+        ReactDOM.render(
+          <div>
+            <Component/>
+          </div>,
+          document.getElementById('root')
+        )
+        // <div>
+        //   <h1>Hello depeng!</h1>
+        //   <h2>Hello Class</h2>
+        // </div>,
+
+    </script>
+  </body>
+</html>

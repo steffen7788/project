@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* Q5. Set the format of all the text */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    color: #999999;
+    text-align: center;
+}
+
+/* Q6. Set the menubar */
+ul#menubar {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul#menubar li {
+    display: inline-block;
+}
+
+ul#menubar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #69C;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 95px;
+    text-align: center;
+}
+
+ul#menubar a:hover {
+    color: white;
+    background-color: rgb(55,96,146);
+}
+
+/*Q8. Set the slideshow */
+#nextBtn, #prevBtn {
+    width: 100px;
+}
+
+ul#slideshow {
+    display: inline-block;
+    vertical-align: middle; 
+    width: 300px;
+    border: 1px solid #69C;
+}
+
+/*Q9. Set the content of the About us */
+#content {
+    padding: 0 5px 10px 5px;
+    border: 1px dashed #69F;
+}
+
+#content ol {
+    list-style-type:lower-alpha;
+}
+
+#content ol > li {
+    font-size: 14px;
+}
+
+#content li {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#content p {
+    font-weight: normal;
+}
+
+/*Q10. Set the content of the Gallery */
+#imgList, #description table {
+    display: inline-block;
+    color: black;
+}
+#imgList li {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid #69C;
+}
+
+#imgList li:hover {
+    background: #99F;
+    cursor: pointer;	
+}
+
+#description table {
+    display: none;
+}
+
+#description td {
+    text-align: left;
+}
+
+/* Q11. Create the Purchase Order Form */
+form {
+    display:inline-block;
+}
+
+.tRow {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.tRow label, .tCell {
+    display: inline-block;
+}
+
+.tRow label {
+    width: 150px;
+}
+
+.tCell {
+    width: 250px;
+}
+
+textarea {
+    display: block;
+}
+
+/* Q15. The style switching */
+#styleSwitch {
+    text-align: right;
+}
+
